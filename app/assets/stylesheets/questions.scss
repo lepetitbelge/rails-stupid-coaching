@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px
+  font-size: 14px
 }
 
 h1 {
@@ -13,8 +13,13 @@ h1 {
 .message {
   font-weight: bold;
 }
-
-a {
-  text-decoration: none;
-  color: #76B782;
+#link-question {
+  a {
+    text-decoration: none;
+    color: #76B782;
+    &:hover {
+            color: #639b6d;
+    }
+  }
 }
+
